@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.compat.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <title>Document</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-ui.js"></script>
+</head>
+<body data-spy="scroll" data-offset="150" data-target=".navbar">
+<nav class="navbar navbar-expand-md bg-light navbar-light top-nav fixed-top">
+    <a href="#" class="navbar-brand">
+        <img src="logo.png" width="40px" alt="logo" class="logo"/> Firecode
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#slider">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="slider">
+        <ul class="navbar-nav top-menu">
+            <li class="nav-items"><a href="#home" class="nav-link active">Home</a></li>
+            <li class="nav-items"><a href="#service" class="nav-link">Servicing
+                <sup>
+                    <span class="badge badge-danger animated infinite pulse"><i class="fa fa-envelope"></i></span>
+                </sup>
+            </a></li>
+            <li class="nav-items"><a href="#clients" class="nav-link">Client</a></li>
+            <li class="nav-items"><a href="#pricing" class="nav-link">Pricing</a></li>
+            <li class="nav-items dropdown"><a href="#contact-us" class="nav-link">Contact us
+                <sup>
+                    <span class="badge badge-danger animated infinite pulse">NEW</span>
+                </sup>
+            </a></li>
+            <li class="nav-items"><a href="#" class="nav-link" data-toggle="modal" data-target="#account">Account</a></li>
+            
+        </ul>
+    
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-items"><a href="#" class="nav-link"><i class="fa fa-facebook"></i></a></li>
+            <li class="nav-items"><a href="#" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="nav-items"><a href="#" class="nav-link"><i class="fa fa-google"></i></a></li>
+        </ul>
+    </div>
+</nav>
+
+<!--home menu-->
+<div class="jumbotron jumbotron-fluid text-center" id="home">
+    <div class="container">
+        <h1 class="main-font animated fadeIn">Wap mobile app development</h1>
+         <p class="animated fadeIn slower">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda autem rerum laborum, accusantium aperiam iste? Voluptas inventore ea reprehenderit qui cupiditate debitis harum, odio impedit nemo, numquam laborum quidem deserunt?
+            <br class="d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         </p>
+         <img src="mobile.png" alt="mobile" width="80%" class="animated slideInUp">
+    </div>
+</div>
+<!--end home menu-->
+
+<!--Start services menu-->
+<div class="jumbotron jumbotron-fluid bg-light text-center m-0"  id="service">
+    <div class="container-fluid">
+        <h1 class="main-font service-header">SERVICES</h1>
+    <div class="row">
+        <div class="col-md-4 service_col">
+            <i class="fa fa-code service-icon"></i>
+            <h4>Mobile App Development</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quos, totam recusandae voluptatibus debitis sed minus vero doloribus nulla rerum.</span>
+        </div>
+        <div class="col-md-4 service_col">
+            <i class="fa fa-code service-icon"></i>
+            <h4>Mobile App Development</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quos, totam recusandae voluptatibus debitis sed minus vero doloribus nulla rerum.</span>
+        </div>
+        <div class="col-md-4 service_col">
+            <i class="fa fa-code service-icon"></i>
+            <h4>Mobile App Development</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quos, totam recusandae voluptatibus debitis sed minus vero doloribus nulla rerum.</span>
+        </div>
+    </div>
+    </div>
+</div>
+<!--end services menu-->
+
+<!--client menu start-->
+<div class="jumbotron jumbotron-fluid mb-0" id="clients">
+   <div class="container-fluid">
+    <h1 class="main-font text-center" style="margin-bottom:30px;">CLIENTS</h1>
+    <div id="myclient" class="carousel slide container" data-ride="carousel" data-interval="2500">
+        <ol class="carousel-indicators">
+            <li data-target="#myclient" class="active" data-slide-to="0"></li>
+            <li data-target="#myclient" data-slide-to="1"></li>
+            <li data-target="#myclient" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+                <div class="client-pic mx-auto">
+                    <img src="client_img/1.jpg" alt="client pic" width="100%">
+                </div>
+                <h3>ER Sourav</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quos, totam recusandae 
+                   <br class="d-none d-lg-block"> voluptatibus debitis sed minus vero doloribus nulla rerum.</span>
+                   <br>
+                   <i class="fa fa-facebook client-icon"></i>
+                   <i class="fa fa-twitter client-icon"></i>
+                   <i class="fa fa-linkedin client-icon"></i>
+                   <i class="fa fa-google client-icon"></i>
+            </div>
+
+            <div class="carousel-item">
+                <div class="client-pic mx-auto">
+                    <img src="client_img/2.jpg" alt="client pic" width="100%">
+                </div>
+                <h3>James paul</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quos, totam recusandae 
+                   <br class="d-none d-lg-block"> voluptatibus debitis sed minus vero doloribus nulla rerum.</span>
+                   <br>
+                   <i class="fa fa-facebook client-icon"></i>
+                   <i class="fa fa-twitter client-icon"></i>
+                   <i class="fa fa-linkedin client-icon"></i>
+                   <i class="fa fa-google client-icon"></i>
+            </div>
+
+            <div class="carousel-item">
+                <div class="client-pic mx-auto">
+                    <img src="client_img/3.jpg" alt="client pic" width="100%">
+                </div>
+                <h3>Kevin</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quos, totam recusandae 
+                   <br class="d-none d-lg-block"> voluptatibus debitis sed minus vero doloribus nulla rerum.</span>
+                   <br>
+                   <i class="fa fa-facebook client-icon"></i>
+                   <i class="fa fa-twitter client-icon"></i>
+                   <i class="fa fa-linkedin client-icon"></i>
+                   <i class="fa fa-google client-icon"></i>
+            </div>
+        </div>
+        <a href="#myclient" role="button" class="carousel-control-prev" data-slide="prev">
+            <i class="fa fa-chevron-left" style="color:#000;font-size:20px;"></i>
+        </a>
+
+        <a href="#myclient" role="button" class="carousel-control-next" data-slide="next">
+            <i class="fa fa-chevron-right" style="color:#000;font-size:20px;"></i>
+        </a>
+    </div>
+   </div>
+</div>
+<!--client menu end-->
+
+ <!--pricing menu start-->
+ <div class="jumbotron jumbotron-fluid mt-3 bg-light mb-0" id="pricing">
+   <div class="container-fluid">
+    <h1 class="main-font text-center" style="margin-bottom:30px;">PRICING</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 mb-5">
+                <div class="card wow slideInLeft">
+                    <div class="card-header bg-danger text-light text-center">
+                        <h5>STARTER PLAN</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1>10$ /MO</h1>
+                        <hr>
+                        <span>STATIC APP</span>
+                        <hr>
+                        <span>SPECIALLY FOR ANDROID</span>
+                        <hr>
+                        <span>LOAD TIME FASTER</span>
+                        <hr>
+                        <span>NO FUTURE UPDATES</span>
+                        <hr>
+                        <span>NO CUSTOMER SUPPORT</span>
+                        <hr>
+                        <span>PAID MAINTENANCE </span>
+                    </div>
+                    <div class="card-footer bg-danger text-center">
+                        <button class="btn p-2"><a href="#" style="text-decoration:none" class="text-dark">More info</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-5">
+                <div class="card wow slideInUp">
+                    <div class="card-header bg-primary text-light text-center">
+                        <h5>PREMIUM PLAN</h5>
+                    </div>
+                    <div class="card-body text-center bg-light">
+                        <h1>50$ /MO</h1>
+                        <hr>
+                        <span>DYNAMIC APP</span>
+                        <hr>
+                        <span>SPECIALLY FOR ANDROID AND IOS</span>
+                        <hr>
+                        <span>LOAD TIME FASTER</span>
+                        <hr>
+                        <span>FUTURE UPDATES UPTO 2 YEARS</span>
+                        <hr>
+                        <span>CUSTOMER SUPPORT</span>
+                        <hr>
+                        <span>PAID MAINTENANCE </span>
+                    </div>
+                    <div class="card-footer bg-primary text-dark text-center">
+                        <button class="btn p-2"><a href="#" style="text-decoration:none" class="text-dark">More info</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-5">
+                <div class="card wow slideInRight">
+                    <div class="card-header bg-warning text-light text-center">
+                        <h5>BUSINESS PLAN</h5>
+                    </div>
+                    <div class="card-body text-center bg-light">
+                        <h1>100$ /MO</h1>
+                        <hr>
+                        <span>DYNAMIC APP  &  WEBSITE DEVELOPMENT</span>
+                            <hr>
+                            <span>SPECIALLY FOR ANDROID AND IOS</span>
+                            <hr>
+                            <span>LOAD TIME FASTER</span>
+                            <hr>
+                            <span>FUTURE UPDATES UPTO 5 YEARS</span>
+                            <hr>
+                            <span>CUSTOMER SUPPORT</span>
+                            <hr>
+                            <span>FREE MAINTENANCE </span>
+                    </div>
+                    <div class="card-footer bg-warning text-light text-center">
+                        <button class="btn p-2"><a href="#" style="text-decoration:none" class="text-dark">More info</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+ </div>
+ <!--pricing menu end-->
+
+ <!--contact-us menu start-->
+
+ <div class="jumbotron jumbotron-fluid bg-warning mb-0" id="contact-us">
+    <div class="container-fluid">
+        <h1 class="main-font text-center">Contact us</h1>
+        <div class="row">
+            <div class="col-md-4 px-4 py-2">
+                <form>
+                    <div class="form-group">
+                        <label for="username">Your name</label>
+                        <input type="text" name="username" id="username" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="number">Phone number</label>
+                        <input type="number" name="number" id="number" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control">
+                    </div>
+                    <button type="button" data-toggle="modal" data-target="#form-accept" class="btn bg-primary text-light">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-4 px-4 py-2">
+                <h5 class="mb-0">Address</h5>
+                <address>Mahavir Enclave part-2 , New Delhi , Delhi-110059</address>
+
+                <h5 class="mb-0">Contact number</h5>
+                <address>+91 9899080899</address>
+
+                <h5 class="mb-0">Website</h5>
+                <address>www.firecode.com</address>
+
+                <h5 class="mb-0">Email id</h5>
+                <address>firecode@gmail.com</address>
+            </div>
+            <div class="col-md-4 px-4 py-2">
+                <h5>Follow us</h5>
+                <i class="fa fa-facebook client-icon text-center bg-light"></i>
+                   <i class="fa fa-twitter client-icon text-center bg-light"></i>
+                   <i class="fa fa-linkedin client-icon text-center bg-light"></i>
+                   <i class="fa fa-google client-icon text-center bg-light"></i>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--contact-us menu end-->
+ <script src="wow.min.js"></script>
+ <script>
+    new WOW().init();
+
+    $(".navbar ul li a").click(function(e){
+        e.preventDefault();
+        var href_value=this.hash;
+        $("html").animate({
+            scrollTop:$(href_value).offset().top
+        },500,function(){
+            window.location.href=href_value;
+        });
+    });
+ </script>
+
+ <!--start modal-->
+    <div class="modal animated bounceInDown" id="account">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <i class="fa fa-times-circle text-warning" style="position:absolute;top:5px;right:5px;z-index:100000;cursor:pointer;" data-dismiss="modal"></i>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a href="#login" class="nav-link active" data-toggle="tab">Login</a></li>
+                        <li class="nav-item"><a href="#sign_up" class="nav-link" data-toggle="tab">Sign Up</a></li>
+                    </ul>
+
+                    <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="login">
+                            <form>
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text border border-warning bg-warning">
+                                                    <i class="fa fa-user text-light"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control border border-left-0 border-warning" placeholder="Username"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text border border-warning bg-warning">
+                                                    <i class="fa fa-lock text-light"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control border border-left-0 border-warning" placeholder="Password"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="remchk">
+                                            <label for="remchk" class="custom-control-label">Remember me</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-warning float-right text-light" type="submit">Login</button>
+                            </form>
+                        </div>
+
+                        <div class="tab-pane" id="sign_up">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text bg-warning text-light border border-warning">
+                                                    <i class="fa fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" placeholder="Firstname" class="form-control border border-left-0 border-warning"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <div class="input-group">
+                                            <input type="text" placeholder="Lastname" class="form-control border border-right-0 border-warning"/>
+                                            <div class="input-group-append">
+                                                <span class="input-group-text border text-light  border-warning bg-warning">
+                                                    <i class="fa fa-user"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text bg-warning border border-warning text-light">Gender</span>
+                                            </div>
+
+                                            <select class="form-control border border-left-0 border-warning" style="box-shadow:none !important;">
+                                                <option>Male</option>
+                                                <option>Female</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <div class="input-group">
+                                            <input type="text" id="datepicker" placeholder="dd/mm/yy" class="form-control border border-right-0 border-warning"/>
+                                            <div class="input-group-append">
+                                                <span class="input-group-text border border-warning bg-warning text-light">
+                                                    Dob
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text bg-warning border border-warning text-light">
+                                                    Mobile
+                                                </span>
+                                            </div>
+                                        <input type="number" class="form-control border border-left-0 border-warning"
+                                         name="mobile" placeholder="mobile" />
+                                        <input type="number" class="form-control border-warning" placeholder="re-mobile" name="mobile"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text bg-warning text-light border border-warning">
+                                                    Email
+                                                </span>
+                                            </div>
+                                            <input type="text" placeholder="email" class="form-control border border-left--">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <ul class="list-group">
+                                    <li  class="list-group-item bg-warning text-light">Occupation</li>
+                                    <li class="list-group-item">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="student" name="occupation"/>
+                                            <label for="student" class="custom-control-label">Student</label>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" name="occupation" id="Proffesional"/>
+                                            <label for="Proffesional" class="custom-control-label">Proffesional</label>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-warning">
+                    <p class="mx-auto">You don't have any account <a href="#">Create now</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("#datepicker").datepicker({ 
+                dateFormat: 'dd-mm-yy',
+                showAnim:"slide",
+                duration:"2000"
+            });
+        });
+    </script>
+ <!--end modal-->
+</body>
+</html>
