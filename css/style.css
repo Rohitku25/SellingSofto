@@ -1,0 +1,198 @@
+.test{
+    border:1px solid red;
+}
+
+.logo{
+    border-radius:50%;
+    border:2px solid #fff;
+    box-shadow:0px 0px 2px grey;
+    padding:2px;
+}
+
+.top-nav{
+    -webkit-box-shadow:0px 8px 10px 0px #ddd;
+    box-shadow:0px 8px 10px 0px #ddd;
+}
+
+.top-menu .nav-link.active{
+    background:#fff;
+    box-shadow:0px 0px 5px grey;
+    border-bottom:3px solid #000;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+
+#home{
+    background:#fff;
+    margin-top:40px;
+    overflow:hidden;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+#home h1{
+    margin-top:20px;
+}
+
+.main-font{
+    font-family: 'Fredoka One', cursive;
+}
+
+.service-header{
+    margin-bottom:40px;
+}
+
+.service-icon{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#fff;
+    box-shadow:0px 0px 3px grey;
+    font-size:30px !important;
+    padding-top:9px;
+    border:1px solid #ccc;
+}
+
+#service span{
+    letter-spacing:1px;
+}
+
+.client-pic{
+    width:100px;
+    height:100px;
+    border:1px solid #ccc;
+    border-radius:50%;
+    box-shadow:0px 0px 5px #ddd;
+    margin-bottom:10px;
+    padding:2px;
+}
+
+.client-pic img{
+    border-radius:50%;
+}
+
+.client-icon{
+    width:30px;
+    height:30px;
+    border:1px solid #000;
+    padding-top:5px;
+    margin-top:10px;
+    color:#000;
+    font-size:20px !important;
+    cursor:pointer;
+}
+
+.carousel-item .fa-facebook:hover{
+    background:#3b5998;
+    color:#fff;
+}
+
+.carousel-item .fa-twitter:hover{
+    background:skyblue;
+    color:#fff;
+}
+
+.carousel-item .fa-linkedin:hover{
+    background:#0072b1;
+   color:#fff;
+}
+
+.carousel-item .fa-google:hover{
+    background:#000;
+    color:#fff;
+}
+
+#clients{
+    background:#fff;
+}
+
+.carousel-indicators li{
+    border:2px solid #323232;
+    width:20px;
+    height:20px;
+    box-sizing:border-box;
+    border-radius:50%;
+}
+
+.carousel-indicators li.active{
+    background:#323232;
+} 
+
+.carousel-indicators{
+    bottom:-57px;
+}
+
+#pricing{
+    margin-bottom:0 !important;
+    overflow: hidden;
+}
+
+
+@media(max-width:768px){
+    #home p{
+        text-align:justify;
+    }
+
+    .service_col{
+        margin-bottom:40px;
+     }
+}
+
+#ui-datepicker-div{
+    z-index:99999 !important;
+    width:fit-content;
+}
+#ui-datepicker-div .ui-datepicker-header{
+    background:#DC3545 !important;
+    color:#fff;
+}
+
+.ui-datepicker-calendar a.ui-state-default{
+    background:#FFC107;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    text-align:center;
+    padding-top:9px;
+}
+
+.ui-datepicker-calendar th{
+    background:#000;
+    color:#fff;
+    border:1px solid #fff !important;
+}
+
+.ui-datepicker-next span,
+.ui-datepicker-prev span{
+    display:none !important;
+}
+
+.ui-datepicker-next,.ui-datepicker-prev{
+    font-family:FontAwesome;
+    text-align:center;
+    margin-top:3px;
+    text-decoration:none !important;
+}
+
+.ui-datepicker-next:hover,.ui-datepicker-prev:hover{
+    background:none !important;
+    border:none !important;
+}
+
+.ui-datepicker-prev::before{
+    content:"\f100";
+}
+
+.ui-datepicker-next::before{
+    content:"\f101";
+}
+
+.modal input{
+    box-shadow:none !important;
+}
+
+.custom-control-input:checked~.custom-control-label::before{
+    background:#FFC107 !important;
+    border:#FFC107 !important;
+    box-shadow:none !important;
+}
